@@ -41,6 +41,7 @@ const Title = styled.p`
     color: rgb(9,83,133);
     max-width: 200px;
     text-align: center;
+    font-size: 20px;
 `
 
 const Link = styled.a`
@@ -70,17 +71,17 @@ export default class Footer extends Component {
                     <Row>
                         <Column>
                             <Title>About</Title>
-                            <Link href="#">About Me</Link>
-                            <Link href="#">About DuoLivre</Link>
+                            <Link href="#">My Story</Link>
+                            <Link href="#">DuoLivre</Link>
                             <Link href="#">Crowdfunding <br/> Journey</Link>
                             <Link></Link>
                         </Column>
                         <Column>
                             <Title href="#">Services</Title>
-                            <Link href="#">FL Bookclub</Link>
-                            <Link href="#">Speaking</Link>
+                            <Link href="#">FL Book Club</Link>
+                            <Link href="#">Marketing</Link>
                             <Link href="#">Web Dev</Link>
-                            <Link href="#">Analytics</Link>
+                            <Link href="#">Speaking</Link>
                         </Column>
                         <Column>
                             <Title>Social</Title>

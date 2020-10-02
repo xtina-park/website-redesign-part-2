@@ -1,10 +1,11 @@
 #xtinapark {
     font-family: 'Amita', cursive;
-    font-size: xx-large;
+    font-size: xxx-large;
 }
 
 .color-nav {
     background-color: orange;
+    height: 5rem;
 }
 
 .color-nav a {

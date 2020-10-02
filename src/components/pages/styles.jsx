@@ -11,6 +11,10 @@ export const Text = styled.p`
 
 export const Image = styled.img`
     padding: 2.5px;
+    border-radius: 25px;
+    max-width: 100%;
+    height: auto;
+    
     ${props => {
         switch(props.disappear) {
             case "medium":

@@ -9,9 +9,11 @@ import algarrobo from './images/algarrobo.png';
 export default class Home extends Component {
     render() {
         return (
-            <Container align="center">
-                <Content.Image src={guanica}/>
-                <Content.Image src={algarrobo} disappear="medium"/>
+            <Container>
+                <div align="center">
+                    <Content.Image src={guanica}/>
+                    <Content.Image src={algarrobo} disappear="medium"/>
+                </div>
                 <br/>
                 <Content.Title>About Me</Content.Title>
                 <Content.Text>Hey, there! My name is Christina- lover of technology, human languages, 

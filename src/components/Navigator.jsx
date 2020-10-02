@@ -15,7 +15,7 @@ export default class Navigator extends Component {
 
         <Navbar.Collapse id="navbarsExampleDefault">
           <Navbar.Nav ml="auto">
-            <Nav.ItemLink href="#/duolivre">DUOLIVRE</Nav.ItemLink>
+            <Nav.ItemLink href="#/duolivre">DUOLIVRE(beta)</Nav.ItemLink>
             <Nav.ItemLink href="#/blog">BLOG</Nav.ItemLink>
             <Nav.ItemLink href="#/contact">CONTACT</Nav.ItemLink>
           </Navbar.Nav>
