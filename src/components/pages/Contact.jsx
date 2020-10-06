@@ -1,13 +1,25 @@
-import React, { Component } from 'react'
+import React, { useState } from 'react'
+import { Container } from 'bootstrap-4-react';
 
-import Content from '.';
+import Form from './ContactForm/Form';
+import Success from './ContactForm/Success';
+// import Content from '.';
 
-export default class Contact extends Component {
-    render() {
-        return (
-            <div align="center">
-                <Content.Title>Contact</Content.Title>
-            </div>
-        )
+const Contact = () => {
+    const [isSubmitted, setIsSubmitted] = useState(false);
+
+    function submitForm() {
+        setIsSubmitted(true);
     }
+
+    return (
+        <Container>
+            {!isSubmitted ? 
+                <Form submitForm = {submitForm}/> :
+                <Success/>
+            }
+        </Container>
+    )
 }
+
+export default Contact
